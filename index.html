@@ -1,47 +1,118 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>EPortfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-    <h1>Self Introduction</h1>
-    <p> I Rewaj, have been in the Computer Science program for the last 4 years.<br/>
-        Throughout my 4-year journey in the CS program, I have acquired a solid foundation in programming principles, data structures, algorithms, and software development methodologies. Specifically, I have developed proficiency in Java programming language.
-        I aim to showcase my expertise in Java development, highlighting my ability to design, develop, and deploy efficient and scalable Java-based applications.
-        My goal is to become an expert Java developer, and demonstrating my skills in Java development will help me achieve this goal. I aspire to work in a reputed organization as a senior Java developer, leading projects and mentoring junior developers.
-        By specializing in Java development, I will be able to contribute to the development of complex software systems, leveraging my expertise to deliver high-quality solutions. This specialization will also enable me to stay up-to-date with industry trends and advancements in Java technology, making me a valuable asset to my organization.
-    </p>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
 
-    <h1>Artifact Name: Databases</h1>
-    <h2>Client/Server Application using MongoDB</h2>
-    <p>The Client/Server Application using MongoDB is designed to manage customer data, orders, and inventory for a business. The original system includes basic CRUD (Create, Read, Update, Delete) operations for customers, orders, and inventory items.
-    </p>
-    
-    <h3>Enhancement Goals:</h3>
-    <p>The primary objective is to enhance the Client/Server Application using MongoDB by using that specialize in three key regions: improving records integrity and safety, optimizing queries for better performance, and enforcing superior features consisting of aggregation pipelines and multi-file transactions.
-    </p>
-    <h3>Enhancements Description</h3>
-    <p>The improvements will start with imposing schema validation to make certain data consistency and integrity in the MongoDB database. This involves defining and enforcing regulations on record structures, stopping information inconsistencies and making sure adherence to predefined requirements. Additionally, sturdy person authentication mechanisms could be included to govern get right of entry to to the database. Role-primarily based get admission to manage will restrict operations based totally on consumer roles, enhancing security via restricting unauthorized facts access and adjustments.
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#database">DataBase</a>
+				<a class="nav-item" href="#SE">SE</a>
+				<a class="nav-item" href="#DSA">DSA</a>
+			</div>
 
-        Query optimization will involve the creation of indexes on regularly queried fields, so that you can drastically enhance query performance with the aid of reducing the time required to retrieve data. Furthermore, existing MongoDB queries may be cautiously reviewed and subtle to improve performance and minimize resource consumption, ensuring premier overall performance below various operational conditions.
-        
-        Advanced capabilities might be added to leverage MongoDB's abilties absolutely. This includes utilizing aggregation pipelines to carry out complicated statistics analysis and generate insightful reports. By structuring statistics processing levels, aggregation pipelines will streamline operations and facilitate comprehensive information insights. Additionally, multi-document transactions may be implemented to make sure atomicity and statistics consistency throughout a couple of database operations. This feature will guarantee that both all parts of a transaction are efficiently finished or none in any respect, preserving database integrity in essential situations.
-    </p>
-    <h3>Demonstration of Specific Skills and Course Outcomes</h3>
-    <p>Through those enhancements, the venture will reveal proficiency in designing and dealing with MongoDB databases with a focal point on facts integrity, protection, and performance optimization. These efforts align immediately with path effects, showcasing the capability to implement advanced database functions efficiently. The undertaking targets to exemplify competence in utilizing MongoDB's functions to increase robust database answers that meet stringent safety necessities and supply excessive-performance effects in real-world packages.
-    </p>
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="avatar" src="assets/img/profile.png">
+			</div>
+			<div class="container"></br>
+				<h3 class="title is-3">Self Introduction</h3>
+				<p class="intro">
+					I Rewaj, have been in the Computer Science program for the last 4 years.
+Throughout my 4-year journey in the CS program, I have acquired a solid foundation in programming principles, data structures, algorithms, and software development methodologies. Specifically, I have developed proficiency in Java programming language. I aim to showcase my expertise in Java development, highlighting my ability to design, develop, and deploy efficient and scalable Java-based applications. My goal is to become an expert Java developer, and demonstrating my skills in Java development will help me achieve this goal. I aspire to work in a reputed organization as a senior Java developer, leading projects and mentoring junior developers. By specializing in Java development, I will be able to contribute to the development of complex software systems, leveraging my expertise to deliver high-quality solutions. This specialization will also enable me to stay up-to-date with industry trends and advancements in Java technology, making me a valuable asset to my organization.
+				</p>
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		<section  id="database" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h1 class="title is-2">Artifact Name: Databases</h1>
+				</div>
+				<div class="has-text-centered">
+					<h4 class="title is-3">Client/Server Application using MongoDB</h4>
+				</div>
+				<p class="intro">The Client/Server Application using MongoDB is designed to manage customer data, orders, and inventory for a business. The original system includes basic CRUD (Create, Read, Update, Delete) operations for customers, orders, and inventory items.</p>
+				<h4 class="title is-5">Enhancement Goals:</h4>
+				<p class="intro">The primary objective is to enhance the Client/Server Application using MongoDB by using that specialize in three key regions: improving records integrity and safety, optimizing queries for better performance, and enforcing superior features consisting of aggregation pipelines and multi-file transactions.</p>
+				<h4 class="title is-5">Enhancements Description</h4>
+				<p class="intro">The improvements will start with imposing schema validation to make certain data consistency and integrity in the MongoDB database. This involves defining and enforcing regulations on record structures, stopping information inconsistencies and making sure adherence to predefined requirements. Additionally, sturdy person authentication mechanisms could be included to govern get right of entry to to the database. Role-primarily based get admission to manage will restrict operations based totally on consumer roles, enhancing security via restricting unauthorized facts access and adjustments. Query optimization will involve the creation of indexes on regularly queried fields, so that you can drastically enhance query performance with the aid of reducing the time required to retrieve data. Furthermore, existing MongoDB queries may be cautiously reviewed and subtle to improve performance and minimize resource consumption, ensuring premier overall performance below various operational conditions. Advanced capabilities might be added to leverage MongoDB's abilties absolutely. This includes utilizing aggregation pipelines to carry out complicated statistics analysis and generate insightful reports. By structuring statistics processing levels, aggregation pipelines will streamline operations and facilitate comprehensive information insights. Additionally, multi-document transactions may be implemented to make sure atomicity and statistics consistency throughout a couple of database operations. This feature will guarantee that both all parts of a transaction are efficiently finished or none in any respect, preserving database integrity in essential situations.</p>
+				<h4 class="title is-5">Demonstration of Specific Skills and Course Outcomes</h4>
+				<p class="intro">Through those enhancements, the venture will reveal proficiency in designing and dealing with MongoDB databases with a focal point on facts integrity, protection, and performance optimization. These efforts align immediately with path effects, showcasing the capability to implement advanced database functions efficiently. The undertaking targets to exemplify competence in utilizing MongoDB's functions to increase robust database answers that meet stringent safety necessities and supply excessive-performance effects in real-world packages.</p>
+				<h4 class="title is-5">Overall Considerations:</h4>
+				<p class="intro">The improvements planned for the Client/Server Application the use of MongoDB will exhibit a number of particular capabilities and expertise crucial in database management and alertness improvement. By implementing schema validation, user authentication, and function-primarily based get right of entry to manipulate, the mission will show proficiency in making sure records integrity and safety within MongoDB environments. These skills are important for maintaining consistent facts systems and safeguarding sensitive records, aligning at once with enterprise pleasant practices in database safety. While the enhancement plan covers foundational elements inclusive of records integrity and query optimization, there can be regions in which additional depth or coverage of direction consequences may be beneficial. Specifically, exploring extra advanced MongoDB capabilities like sharding for horizontal scaling or deploying MongoDB in cloud environments could in addition enhance the task's scope. Addressing these aspects would offer a greater complete demonstration of abilties in dealing with huge-scale data programs and adapting to fashionable infrastructure demands.				</p>
+				<br/>
+				<p class="intro">Limitations or weaknesses in the cutting-edge plan often revolve around the intensity of insurance in advanced MongoDB features beyond fundamental query optimization and transaction control. Enhancing the challenge with these advanced capabilities would require extra studies and potentially extra sizable implementation efforts. Additionally, ensuring compatibility and overall performance optimization throughout one of a kind deployment environments, including on-premise as opposed to cloud-primarily based answers, will be a capability concern that wishes careful attention and planning. As I continue with the plan, I might admire steerage from my teacher on comparing the scalability implications of the improvements and strategies for efficaciously enforcing advanced MongoDB capabilities. Specifically, insights into exceptional practices for deploying MongoDB in cloud environments and optimizing overall performance would be beneficial. Additionally, readability on aligning the venture with particular direction effects and industry standards for database control and security could help ensure that the improvements efficaciously meet the meant gaining knowledge of targets and professional standards. By addressing those issues, the improved Client/Server Application the usage of MongoDB will not simplest exhibit proficiency in core database control capabilities but also reflect a proactive approach closer to addressing modern-day enterprise challenges and rising trends in database generation.</p>
+			</div>
+		</section>
+		<section  id="SE" class="section section-1">
+			<div class="container">
+				<div class="has-text-centered">
+					<h1 class="title is-2">Artifact Name: Software Engineering</h1>
+				</div>
+				<div class="has-text-centered">
+					<h4 class="title is-3">Banking System</h4>
+				</div>
+				<h4 class="title is-5">Enhancement Plan:</h4>
+				<p class="intro">The banking system's UI could be revamped for a extra intuitive and consumer-pleasant revel in. This consists of a cutting-edge, responsive design that works seamlessly on desktops, tablets, and smartphones. Enhanced accessibility functions will make certain usability for all users, consisting of those with disabilities.
+					Security improvements will consist of imposing multi-aspect authentication (MFA) and improving encryption for both records at relaxation and in transit. Regular protection audits and vulnerability exams may be carried out to identify and deal with ability weaknesses, and advanced hazard detection systems will be included for proactive security management.</p>
+				<p class="intro">Performance may be optimized by using enhancing database queries, imposing caching mechanisms, and using load balancing strategies. These measures will reduce load times, enhance transaction speeds, and ensure high gadget availability and reliability, mainly at some stage in peak usage.
+					New functions will include non-public finance management tools for tracking spending and placing budgets, actual-time fraud detection to monitor and flag suspicious sports, and AI-driven chatbots for more suitable customer service. Integration with 1/3-birthday celebration monetary offerings will provide a comprehensive monetary management revel in for customers.
+				</p>
+				<h4 class="title is-5">Demonstration of Specific Skills</h4>
+				<p class="intro">Effective planning, scheduling, and resource allocation, ensuring the mission is completed on time and within finances. Creating a user-pleasant and accessible interface thru wireframing, prototyping, and usability trying out. Implementing superior security features like MFA and encryption, and engaging in normal protection audits. Optimizing gadget overall performance via database question upgrades, caching, and cargo balancing. Coding, trying out, and deploying new features and improvements using relevant programming languages and gear. Working with stakeholders to accumulate necessities, coordinating with development teams, and making sure alignment with enterprise goals and person desires.
+				</p>
+			</div>
+		</section>
 
-    <h3>Overall Considerations:    </h3>
-    <p>The improvements planned for the Client/Server Application the use of MongoDB will exhibit a number of particular capabilities and expertise crucial in database management and alertness improvement. By implementing schema validation, user authentication, and function-primarily based get right of entry to manipulate, the mission will show proficiency in making sure records integrity and safety within MongoDB environments. These skills are important for maintaining consistent facts systems and safeguarding sensitive records, aligning at once with enterprise pleasant practices in database safety.
+		<section  id="DSA" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h1 class="title is-2">Artifact Name: Data Structures and Algorithm Design</h1>
+				</div>
+				<div class="has-text-centered">
+					<h4 class="title is-3">Image Processing</h4>
+				</div>
+				<h4 class="title is-5">Enhancement Plan:</h4>
+				<p class="intro">
+					The purpose of this enhancement plan is to leverage advanced facts systems and algorithms to optimize photo processing capabilities, improving performance, accuracy, and scalability in coping with complex photo statistics. Efficient manipulation of pixel information bureaucracy the cornerstone of photograph processing. By imposing facts systems like arrays and matrices, we intention to streamline pixel storage and retrieval processes. Algorithms using spatial indexing or quad-trees may be employed to make sure speedy get right of entry to and change of pixel values, thereby accelerating operations together with picture enhancement and correction. The plan involves refining photo filtering and convolution strategies the usage of meticulously crafted algorithms and optimized kernels. This technique, facilitated by state-of-the-art matrix operations and convolution methods, will enable the seamless execution of tasks like Gaussian blur, aspect detection, and picture sprucing. By integrating efficient information systems, we anticipate great improvements in each velocity and precision throughout various photograph processing programs. Incorporating machine mastering algorithms, including convolutional neural networks (CNNs) and assist vector machines (SVMs), will similarly improve our picture processing toolkit. Data systems will play a pivotal position in coping with training facts and model parameters successfully, facilitating superior performance in obligations like photo type, item detection, and semantic segmentation. This integration underscores our commitment to harnessing interdisciplinary strategies for contemporary picture evaluation and synthesis.
 
-        While the enhancement plan covers foundational elements inclusive of records integrity and query optimization, there can be regions in which additional depth or coverage of direction consequences may be beneficial. Specifically, exploring extra advanced MongoDB capabilities like sharding for horizontal scaling or deploying MongoDB in cloud environments could in addition enhance the task's scope. Addressing these aspects would offer a greater complete demonstration of abilties in dealing with huge-scale data programs and adapting to fashionable infrastructure demands.
-    </p>
-    <p>Limitations or weaknesses in the cutting-edge plan often revolve around the intensity of insurance in advanced MongoDB features beyond fundamental query optimization and transaction control. Enhancing the challenge with these advanced capabilities would require extra studies and potentially extra sizable implementation efforts. Additionally, ensuring compatibility and overall performance optimization throughout one of a kind deployment environments, including on-premise as opposed to cloud-primarily based answers, will be a capability concern that wishes careful attention and planning.
+				</p>
+				
+				<h4 class="title is-5">Demonstration of Specific Skills</h4>
+				<p class="intro">
+					Our talent in choosing and imposing suitable data systems (arrays, matrices, graphs) tailor-made to specific picture processing tasks underscores our commitment to performance and optimization in records coping with. The meticulous design and optimization of algorithms (e.G., FFT, segmentation) show off our advanced competencies in algorithmic improvement, focusing on computational efficiency and scalability. The strategic breakdown of complex image processing demanding situations into workable algorithms and information structures displays our rigorous computational wondering approach, ensuring robust hassle-solving methodologies. By integrating various image processing strategies with machine mastering algorithms, we reveal versatility and innovation in leveraging interdisciplinary strategies to gain sophisticated photograph evaluation effects. Our emphasis on optimizing algorithms and statistics systems for velocity, memory performance, and scalability highlights our dedication to attaining top performance in managing massive-scale image datasets efficiently.
 
-        As I continue with the plan, I might admire steerage from my teacher on comparing the scalability implications of the improvements and strategies for efficaciously enforcing advanced MongoDB capabilities. Specifically, insights into exceptional practices for deploying MongoDB in cloud environments and optimizing overall performance would be beneficial. Additionally, readability on aligning the venture with particular direction effects and industry standards for database control and security could help ensure that the improvements efficaciously meet the meant gaining knowledge of targets and professional standards.
-        
-        By addressing those issues, the improved Client/Server Application the usage of MongoDB will not simplest exhibit proficiency in core database control capabilities but also reflect a proactive approach closer to addressing modern-day enterprise challenges and rising trends in database generation.
-    </p>
-</body>
+				</p>
+			</div>
+		</section>
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<div class="footerLen"></div>
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
 </html>
